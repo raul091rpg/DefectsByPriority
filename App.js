@@ -60,7 +60,9 @@ Ext.define('CustomApp', {
                   'FormattedID',
                   'Name',
                   'Priority',
-                  'Severity'
+                  'Severity',
+                  'State',
+                  'Blocked'
               ],
               storeConfig:{
                   context: this.context.getDataContext(),
